@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "pretty": true,
+        "sourceMap": true,
+        "target": "es6",
+        "outDir": "./dist",
+        "baseUrl": "./server"
+    },
+    "include": [
+        "server/**/*.ts",
+        "simple-logger/**/*.ts",
+        // "test/**/*.ts"
+
+    ],
+    "exclude": [
+        "node_modules",
+    ]
+}
